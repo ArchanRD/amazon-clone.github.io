@@ -155,19 +155,116 @@
     hr {
         width: 40%;
     }
+    
+    .smid {
+        display: none;
+    }
+    
+    .btn2 {
+        display: none;
+    }
+    
+    .top {
+        background-color: rgba(232, 240, 254, 0.502);
+        border: 1px solid white;
+        color: blue;
+        text-align: center;
+    }
+    
+    @media (max-width: 376px) {
+        .right {
+            display: none;
+        }
+        .mid {
+            display: none;
+        }
+        .left {
+            font-size: 20px;
+        }
+        .heading h1 {
+            font-size: 30px;
+        }
+        .heading p {
+            /* border: 1px solid red; */
+            width: 130%;
+            position: relative;
+            right: 1.5rem;
+            font-size: 15px;
+            text-align: center;
+        }
+        .heading {
+            text-align: center;
+        }
+        .socialmedias a {
+            display: block;
+        }
+        .mid .plink {
+            display: flex;
+            margin: auto;
+            width: 100%;
+        }
+        .plink {
+            text-decoration: none;
+            display: flex;
+        }
+        .smid {
+            display: block;
+            margin: 0 8%;
+        }
+        .smid ul {
+            display: flex;
+            text-decoration: none;
+            list-style: none;
+        }
+        .smid li {
+            padding: 0 10px;
+            font-size: 20px;
+            font-family: 'Cinzel', serif;
+        }
+        .smid a {
+            color: black;
+        }
+        .btn2 {
+            display: initial;
+            float: right;
+            position: relative;
+            top: 20px;
+            background-color: black;
+            border: 1px solid black;
+            color: white;
+            border-radius: 5px;
+            padding: 3px 6px;
+            font-family: 'Cinzel', serif;
+            font-weight: 400;
+        }
+    }
 </style>
 
 <body>
+    <div class="top">
+        <p>Welcome!.</p>
+    </div>
     <header class="container">
         <div class="left">
             <p class="archan">Archan</p>
         </div>
+        <a href="contactus.html">
+            <button class="btn2">Contact Us</button>
+        </a>
 
         <div class="mid">
             <ul>
                 <li><a class="link" href="index.html">Home</a></li>
-                <li><a class="link" href="#">Blogs</a></li>
+                <li><a class="link" href="blog.html">Blogs</a></li>
                 <li><u><a class="link" href="aboutus.html">About us</a></u></li>
+            </ul>
+        </div>
+
+        <div class="smid">
+            <ul>
+                <li><a class="plink" href="index.html">Home</a></li>
+                <li><a class="plink" href="blog.html">Blogs</a></li>
+                <li><u><a class="plink" href="aboutus.html">About</a></u></li>
             </ul>
         </div>
 
@@ -182,7 +279,7 @@
         <p>I m <b>Archan</b> and I am studying Diploma in CE from <u><a href="https://www.google.com/search?q=maharaja+sayajirao+university+of+baorda&oq=maharaja+sayajirao+university+of+baorda&aqs=chrome..69i57j69i60l3.10021j0j9&sourceid=chrome&ie=UTF-8">Maharaja Sayajirao University of Baroda</a>.</u>            I am learning Web development as my interest. I love to makes websites and just have a lack of desgining knowledge. I am an Amateur to Web development.
         </p>
         <div class="socialmedias">
-            <p>I need some suggestion to improve my website design. You can contact me on my social medias : </p>
+            <p>If you have any suggestion to improve my website design. You can contact me on my social medias : </p>
             <a href="https://www.instagram.com/archan_92/"> <img class="insta" src="instagram.jpg">Instagram</a>
             <a href="https://www.twitter.com/archan_rd"><img class="twitter" src="twitter.png">Twitter</a>
             <a href="https://www.linkedin.com/in/archan-rd-ba67a0227/"><img class="linkedin" src="linkedin.png">linkedIn</a>

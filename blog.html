@@ -5,61 +5,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
+    <title>Blogs</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&family=Poppins:wght@500&display=swap" rel="stylesheet">
 </head>
 <style>
-    .heading {
-        font-family: 'Poppins', sans-serif;
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .top {
+        background-color: rgba(232, 240, 254, 0.502);
+        border: 1px solid white;
+        color: blue;
         text-align: center;
-        /* border: 2px solid red; */
-        width: 50%;
-        margin: auto;
-        margin-top: 90px;
-    }
-    
-    .heading p {
-        color: rgb(85, 85, 85);
-    }
-    
-    .smid {
-        display: none;
-    }
-    
-    .heading h1 {
-        font-size: 50px;
-    }
-    
-    .heading p a {
-        color: rgb(77, 77, 77);
-    }
-    
-    .heading p a:hover {
-        color: rgb(55, 0, 255);
-    }
-    
-    .insta {
-        width: 30px;
-        text-decoration: none;
-        color: blue;
-    }
-    
-    .twitter {
-        width: 30px;
-        text-decoration: none;
-        color: blue;
-    }
-    
-    .linkedin {
-        width: 30px;
-        text-decoration: none;
-        color: blue;
-    }
-    
-    .socialmedias a {
-        padding-right: 15px;
     }
     
     .left {
@@ -135,15 +97,57 @@
         cursor: pointer;
     }
     
+    .btn:hover {
+        background-color: rgb(36, 36, 36);
+        color: white;
+        border: 1px solid black;
+        border-radius: 3px;
+        padding: 3px 5px;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+    
+    .heading {
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        /* border: 2px solid red; */
+        width: 50%;
+        margin: auto;
+        margin-top: 30px;
+    }
+    
+    .heading p {
+        color: rgb(85, 85, 85);
+    }
+    
+    .heading h1 {
+        font-size: 50px;
+    }
+    
+    .tlines {
+        width: 1%;
+        position: relative;
+        top: -200px;
+    }
+    
+    .smid {
+        display: none;
+    }
+    
+    .hi {
+        width: 10%;
+        margin: 0 44%
+    }
+    
     .btn2 {
         display: none;
     }
     
-    .top {
-        background-color: rgba(232, 240, 254, 0.502);
-        border: 1px solid white;
-        color: blue;
-        text-align: center;
+    .image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 10%;
     }
     
     @media (max-width: 376px) {
@@ -157,7 +161,7 @@
             font-size: 20px;
         }
         .heading h1 {
-            font-size: 30px;
+            font-size: 40px;
         }
         .heading p {
             /* border: 1px solid red; */
@@ -212,32 +216,37 @@
             font-family: 'Cinzel', serif;
             font-weight: 400;
         }
+        .image {
+            width: 50%;
+        }
     }
 </style>
 
 <body>
     <div class="top">
-        <p>Welcome!</p>
+        <p>Blogs on this page will be uploaded soon.</p>
     </div>
     <header class="container">
         <div class="left">
             <p class="archan">Archan</p>
         </div>
+
         <a href="contactus.html">
             <button class="btn2">Contact Us</button>
         </a>
-
+        <!-- <img class="tlines" src="three-lines.png"> -->
 
         <div class="mid">
+
             <ul>
                 <li><a class="link" href="index.html">Home</a></li>
-                <li><a class="link" href="blog.html">Blogs</a></li>
-                <li><a class="link" href="aboutus.html">About us</a></li>
+                <li><u><a class="link" href="blog.html">Blogs</a></u></li>
+                <li><a class="link" href="aboutus.html">About</a></li>
             </ul>
         </div>
         <div class="smid">
             <ul>
-                <li><a class="plink" href="index.html">Home</a></li>
+                <li><u><a class="plink" href="index.html">Home</a></u></li>
                 <li><a class="plink" href="blog.html">Blogs</a></li>
                 <li><a class="plink" href="aboutus.html">About</a></li>
             </ul>
@@ -245,27 +254,17 @@
 
         <div class="right">
             <a href="contactus.html">
-                <h3><button class="btn">Contact Us ☎️</button></h3>
+                <button class="btn">Contact Us</button>
             </a>
         </div>
+
     </header>
+
     <div class="heading">
-        <h1>Contact Us ☎️</h1>
-
-        <div class="socialmedias">
-            <p> My social medias : </p>
-            <a href="https://www.instagram.com/archan_92/"> <img class="insta" src="instagram.jpg">Instagram</a>
-            <a href="https://www.twitter.com/archan_rd"><img class="twitter" src="twitter.png">Twitter</a>
-            <a href="https://www.linkedin.com/in/archan-rd-ba67a0227/"><img class="linkedin" src="linkedin.png">linkedIn</a>
-
-            <div class="email">
-                <p>You can also contact me on my email: <a type="email" href="#">mrtom996@gmail.com</a></p>
-            </div>
-            <hr>
-
-            <p>If you want to send me any kind of suggestions, you can send me via the above sources. 😊</p>
-        </div>
+        <h1>Blogs</h1>
+        <p>Currently No Blogs are available, Sorry for the Inconvenience </p>
     </div>
+    <img class="image" src="offline.png">
 </body>
 
 </html>
