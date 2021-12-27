@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top {
+    background-color: rgba(232, 240, 254, 0.502);
+    border: 1px solid white;
+    color: blue;
+    text-align: center;
+}
+
+.left {
+    /* border: 2px solid green; */
+    /* padding: 5px; */
+    text-align: center;
+    display: inline-block;
+    width: 15%;
+    position: relative;
+    left: 10px;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(77, 77, 77);
+}
+
+.mid {
+    /* border: 2px solid red; */
+    padding: 0px;
+    display: inline-block;
+    width: 30%;
+    position: relative;
+    left: 20%;
+    font-family: 'Cinzel', serif;
+    font-kerning: 500;
+}
+
+.right {
+    /* border: 2px solid black; */
+    padding: 5px;
+    display: inline-block;
+    width: 15%;
+    position: relative;
+    left: 550px;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+}
+
+.container {
+    color: black;
+    margin-top: 43px;
+}
+
+.mid ul li {
+    display: flex;
+    padding-left: 29px;
+}
+
+.mid ul li :hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.mid ul {
+    display: flex;
+    font-size: 20px;
+    padding-left: 60px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 3px 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(36, 36, 36);
+    color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 3px 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.heading {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    /* border: 2px solid red; */
+    width: 50%;
+    margin: auto;
+    margin-top: 90px;
+}
+
+.heading p {
+    color: rgb(85, 85, 85);
+}
+
+.heading h1 {
+    font-size: 50px;
+}
