@@ -53,6 +53,10 @@ body {
     margin-top: 43px;
 }
 
+.mid {
+    margin-bottom: 39px;
+}
+
 .mid ul li {
     display: flex;
     padding-left: 29px;
